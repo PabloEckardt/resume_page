@@ -7,7 +7,7 @@ const app = express();
 // req = data about the request, who and association data
 // res = response about to be sent
 app.get('/', (req,res) => {
-	res.send({hello: "world"});	
+	res.render("./home.html");	
 });
 
 // environment variable access = process.env.PORT or whatever port it is.

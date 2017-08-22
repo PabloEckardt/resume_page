@@ -1,1 +1,3 @@
 packages.json will contain a the start script
+
+heroku uses git for deployments which is kinda cool
