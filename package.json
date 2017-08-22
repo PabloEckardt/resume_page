@@ -1,0 +1,25 @@
+{
+  "name": "resume_page",
+  "version": "1.0.0",
+  "description": "hello",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloEckardt/resume_page.git"
+  },
+  "scripts":{
+ 	"start": "node index.js" 
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloEckardt/resume_page/issues"
+  },
+  "homepage": "https://github.com/PabloEckardt/resume_page#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
