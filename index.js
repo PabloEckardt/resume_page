@@ -24,7 +24,7 @@ app.set('view engine', 'jade');
 
 
 app.get('/', function(req, res){
-    res.render('home');
+    res.send('index.html');
 });
 
 app.listen(8081);
