@@ -1,16 +1,31 @@
-const express = require('express');
-const app = express();
+/**
+ * Module dependencies.
+ */
 
-// app = server
-// get = a route handler
-// app.post, app.put, app.delete, app.patch... 
-// req = data about the request, who and association data
-// res = response about to be sent
-app.get('/', (req,res) => {
-	res.render("./home.html");	
+var express = require('express');
+
+// Path to our public directory
+
+var pub = __dirname;
+console.log(pub)
+// setup middleware
+
+var app = express();
+app.use(express.static(pub));
+
+// Optional since express defaults to CWD/views
+
+//app.set('views', __dirname);
+
+// Set our default template engine to "jade"
+// which prevents the need for extensions
+// (although you can still mix and match)
+app.set('view engine', 'jade');
+
+
+app.get('/', function(req, res){
+    res.render('home');
 });
 
-// environment variable access = process.env.PORT or whatever port it is.
-
-// tell node to listen to 5000 heroku would require a dynamically binded port
-app.listen(5000);
+app.listen(8081);
+console.log('Express app started on port %d', 8081);
