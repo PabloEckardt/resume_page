@@ -75,7 +75,7 @@ section {
 
 section.success {
   color: white;
-  background: #18BC9C; }
+  background: #BC4437; }
 
 @media (max-width: 767px) {
   section {
@@ -163,7 +163,7 @@ header.masthead {
   padding-bottom: 50px;
   text-align: center;
   color: white;
-  background: #18BC9C; }
+  background: #BC4437; }
   header.masthead img {
     display: block;
     margin: 0 auto 20px; }
