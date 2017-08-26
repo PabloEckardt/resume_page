@@ -4,8 +4,7 @@
 
 var express = require('express');
 
-var modals_data =  require("./modals.json")
-
+var modalsData =  require("./modals.json");
 
 // Path to our public directory
 
@@ -27,7 +26,8 @@ app.set('view engine', 'jade');
 
 
 app.get('/', function(req, res){
-    res.render('index.jade');
+    console.log(modalsData.encryptedDirs)
+    res.render('index.jade', { modalsData: modalsData });
 });
 
 app.listen(8081);
