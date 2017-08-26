@@ -1,0 +1,12 @@
+{
+  "encryptedDirs": {
+    "projectTitle": "EncryptedDirs",
+    "description": "______",
+    "client": "client1",
+    "date": "date1",
+    "service": "service1",
+    "tools": "tool1",
+    "imgLink": "img/portfolio/encryptdirs.png",
+    "modalID": "#portfolioModal1"
+  }
+}
