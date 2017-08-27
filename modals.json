@@ -1,13 +1,33 @@
 [
    {
-    "projectTitle": "portfolioModal1",
-    "description": "______",
-    "client": "client1",
-    "date": "date1",
-    "service": "service1",
-    "tools": "tool1",
+    "projectTitle": "How to correctly backup and encrypt directories",
+    "description": "This short project is a basic setup I came up with to make encrypted backups on a schedule, how to manage the encryption keys, and lastly, send email notifications reporting status codes. ",
+    "type": "Personal Project",
+    "date": "Summer 2017",
+    "tools": "Shell Scripting, Python",
     "imgLink": "img/portfolio/encryptdirs.png",
-    "modalID": "portfolioModal1"
+    "modalID": "portfolioModal1",
+     "git": "<a href=\"https://github.com/pabloeckardt\"> github.com/PabloEckardt </a>"
+  },
+  {
+    "projectTitle": "foodcloseto.me",
+    "description": "foodcloseto.me is an aggregator website that mines the yelp fusion API for restaurants in Austin, TX.",
+    "type": "Class - Team Project",
+    "date": "Spring 2017",
+    "tools": "Google Cloud Platform and then nginx self hosting, Gunicorn, Flask, SQL-Alchemy, Jinja2, Bootsrap, HTML, JS, CSS, Travis-CI, autopep8, coverage, pylint ",
+    "imgLink": "img/portfolio/foodclosetome.png",
+    "modalID": "portfolioModal2",
+    "git": "<a href=\"https://github.com/pabloeckardt\"> github.com/PabloEckardt </a>"
+  },
+  {
+    "projectTitle": "RosKiv",
+    "description": "The Robot Operating system library is a fantastic way to learn about robotics. But sometimes getting the hardware necessary to do so can be difficult. This is a research project for Cyber-Physical Systems in which I am producing a simulator that runs on the Kivy graphics library to simulate a <a href='f1tenth.org'> f1/10 lidar-based automated vehicle </a>. This allows for students study and program PID controllers without having to wait for a turn to use one of the 2 vehicles we have at UT. The code used in the simulator can be ported to the real vehicle.",
+    "type": "Undergraduate Research Project",
+    "date": "Fall 2017 - on-going",
+    "tools": "ROS, Kivy, Python, C++",
+    "imgLink": "img/portfolio/roskiv.png",
+    "modalID": "portfolioModal3",
+    "git": "<a href=\"https://github.com/pabloeckardt\"> github.com/PabloEckardt </a>"
   },
   {
     "projectTitle": "portfolioModal2",
@@ -17,6 +37,56 @@
     "service": "service1",
     "tools": "tool1",
     "imgLink": "img/portfolio/foodclosetome.png",
-    "modalID": "portfolioModal2"
+    "modalID": "portfolioModal4"
+  },
+  {
+    "projectTitle": "portfolioModal2",
+    "description": "______",
+    "client": "client1",
+    "date": "date1",
+    "service": "service1",
+    "tools": "tool1",
+    "imgLink": "img/portfolio/foodclosetome.png",
+    "modalID": "portfolioModal5"
+  },
+  {
+    "projectTitle": "portfolioModal2",
+    "description": "______",
+    "client": "client1",
+    "date": "date1",
+    "service": "service1",
+    "tools": "tool1",
+    "imgLink": "img/portfolio/foodclosetome.png",
+    "modalID": "portfolioModal6"
+  },
+  {
+    "projectTitle": "portfolioModal2",
+    "description": "______",
+    "client": "client1",
+    "date": "date1",
+    "service": "service1",
+    "tools": "tool1",
+    "imgLink": "img/portfolio/foodclosetome.png",
+    "modalID": "portfolioModal7"
+  },
+  {
+    "projectTitle": "portfolioModal2",
+    "description": "______",
+    "client": "client1",
+    "date": "date1",
+    "service": "service1",
+    "tools": "tool1",
+    "imgLink": "img/portfolio/foodclosetome.png",
+    "modalID": "portfolioModal8"
+  },
+  {
+    "projectTitle": "portfolioModal2",
+    "description": "______",
+    "client": "client1",
+    "date": "date1",
+    "service": "service1",
+    "tools": "tool1",
+    "imgLink": "img/portfolio/foodclosetome.png",
+    "modalID": "portfolioModal9"
   }
 ]

@@ -158,30 +158,28 @@ html(lang='en')
                             .row
                                 .col-lg-8.mx-auto
                                     .modal-body
-                                        h2 123
+                                        h2 #{project["projectTitle"]}
                                         hr.star-primary
                                         img.img-fluid.img-centered(src='#{project["imgLink"]}', alt='')
                                         p
-                                            | Use this area of the page to describe your project. The icon above is part of a free icon set by
-                                            a(href='https://sellfy.com/p/8Q9P/jV3VZ/') Flat Icons
-                                            | 123
+                                            !{project["description"]}
                                         ul.list-inline.item-details
                                             li
-                                                | Client:
+                                                | Type:
                                                 strong
-                                                    a(href='http://startbootstrap.com') 123
+                                                   #{project["type"]}
                                             li
                                                 | Date:
                                                 strong
-                                                    a(href='http://startbootstrap.com') 123
-                                            li
-                                                | Service:
-                                                strong
-                                                    a(href='http://startbootstrap.com') 123
+                                                    #{project["date"]}
                                             li
                                                 | Tools:
                                                 strong
-                                                    a(href='http://startbootstrap.com') 123
+                                                    #{project["type"]}
+                                            li
+                                                | Source code:  
+                                                strong
+                                                    #{project["git"]}
                                         button.btn.btn-success(type='button', data-dismiss='modal')
                                             i.fa.fa-times
                                             |                     Close
