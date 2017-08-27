@@ -11,7 +11,7 @@
   },
   {
     "projectTitle": "foodcloseto.me",
-    "description": "foodcloseto.me is an aggregator website that mines the yelp fusion API for restaurants in Austin, TX.",
+    "description": "foodcloseto.me is an aggregator website that mines the yelp fusion API for restaurants in Austin, TX. The project was deployed to GCP, but now I host it on my personal server. This was a 4 person project",
     "type": "Class - Team Project",
     "date": "Spring 2017",
     "tools": "Google Cloud Platform and then nginx self hosting, Gunicorn, Flask, SQL-Alchemy, Jinja2, Bootsrap, HTML, JS, CSS, Travis-CI, autopep8, coverage, pylint ",
@@ -30,33 +30,34 @@
     "git": "<a href=\"https://github.com/pabloeckardt\"> github.com/PabloEckardt </a>"
   },
   {
-    "projectTitle": "portfolioModal2",
-    "description": "______",
-    "client": "client1",
-    "date": "date1",
-    "service": "service1",
-    "tools": "tool1",
-    "imgLink": "img/portfolio/foodclosetome.png",
+    "projectTitle": "Flask-Login Example",
+    "description": "There are many ways to implement login in flask, but this is my prefered methos using Flask-Login. This allows for safe and flexible cookie management. This is also an example on how to use Flask-Alchemy as part of the login process and hashed-password storage",
+    "type": "Personal Project",
+    "date": "Summer 2017",
+    "tools": "Flask, Python, Flask-Login, Flask-Alchemy",
+    "imgLink": "img/portfolio/flask-login.png",
+    "git": "<a href=\"https://github.com/pabloeckardt\"> github.com/PabloEckardt </a>",
     "modalID": "portfolioModal4"
   },
   {
-    "projectTitle": "portfolioModal2",
-    "description": "______",
-    "client": "client1",
-    "date": "date1",
-    "service": "service1",
-    "tools": "tool1",
-    "imgLink": "img/portfolio/foodclosetome.png",
+    "projectTitle": "Control a lightswitch via a self hosted website",
+    "description": "This is a easy to follow tutorial on how to move a light switch connected to a servo motor using a raspberry pi in your local network",
+    "type": "Personal Project",
+    "date": "Summer 2017",
+    "tools": "Raspbian, Python, Flask (a raspberry pi)",
+    "git": "<a href=\"https://github.com/pabloeckardt\"> github.com/PabloEckardt </a>",
+    "imgLink": "img/portfolio/lightswitch.png",
     "modalID": "portfolioModal5"
   },
   {
-    "projectTitle": "portfolioModal2",
-    "description": "______",
-    "client": "client1",
-    "date": "date1",
+    "projectTitle": "sudofindstuff.com",
+    "description": "Similar to foodcloseto.me, this aggregator website collects data from different sources. However I am working alone on this project and it should have better and more complex features such as fully dynamic data mining, additionally  I do intend to build a tool with more intrinsic value rather than just a practice project",
+    "type": "Personal Project",
+    "date": "Summer 2017",
     "service": "service1",
-    "tools": "tool1",
-    "imgLink": "img/portfolio/foodclosetome.png",
+    "tools": "self-hosted, nginx, uWSGI, Flask, SQL-Alchemy, Jinja2, Bootsrap, HTML, JS, CSS, autopep8, coverage, pylint ",
+    "imgLink": "img/portfolio/sudofindstuff.png",
+    "git": "<a href=\"https://github.com/pabloeckardt\"> github.com/PabloEckardt </a>",
     "modalID": "portfolioModal6"
   },
   {
@@ -67,6 +68,7 @@
     "service": "service1",
     "tools": "tool1",
     "imgLink": "img/portfolio/foodclosetome.png",
+    "git": "<a href=\"https://github.com/pabloeckardt\"> github.com/PabloEckardt </a>",
     "modalID": "portfolioModal7"
   },
   {
@@ -77,6 +79,7 @@
     "service": "service1",
     "tools": "tool1",
     "imgLink": "img/portfolio/foodclosetome.png",
+    "git": "<a href=\"https://github.com/pabloeckardt\"> github.com/PabloEckardt </a>",
     "modalID": "portfolioModal8"
   },
   {
@@ -87,6 +90,7 @@
     "service": "service1",
     "tools": "tool1",
     "imgLink": "img/portfolio/foodclosetome.png",
+    "git": "<a href=\"https://github.com/pabloeckardt\"> github.com/PabloEckardt </a>",
     "modalID": "portfolioModal9"
   }
 ]
