@@ -72,7 +72,7 @@
     "type": "Personal Project",
     "date": "2017",
     "tools": "Centos, Debian, Ubuntu, virtualbox / vmware, DDNS clients, Apache, Nginx, Passenger, uwsgi, Node.js",
-    "imgLink": "img/portfolio/selfhosted.png",
+    "imgLink": "img/portfolio/selfhosting.png",
     "hasgit": 0,
     "git": "NA",
     "modalID": "portfolioModal8"
