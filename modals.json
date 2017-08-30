@@ -1,14 +1,4 @@
 [
-   {
-    "projectTitle": "How to correctly backup and encrypt directories",
-    "description": "This short project is a basic setup I came up with to make encrypted backups on a schedule, how to manage the encryption keys, and lastly, send email notifications reporting status codes. ",
-    "type": "Personal Project",
-    "date": "Summer 2017",
-    "tools": "Shell Scripting, Python",
-    "imgLink": "img/portfolio/encryptdirs.png",
-    "modalID": "portfolioModal1",
-     "git": "<a href=\"https://github.com/pabloeckardt\"> github.com/PabloEckardt </a>"
-  },
   {
     "projectTitle": "foodcloseto.me",
     "description": "foodcloseto.me is an aggregator website that mines the yelp fusion API for restaurants in Austin, TX. The project was deployed to GCP, but now I host it on my personal server. This was a 4 person project",
@@ -17,6 +7,8 @@
     "tools": "Google Cloud Platform and then nginx self hosting, Gunicorn, Flask, SQL-Alchemy, Jinja2, Bootsrap, HTML, JS, CSS, Travis-CI, autopep8, coverage, pylint ",
     "imgLink": "img/portfolio/foodclosetome.png",
     "modalID": "portfolioModal2",
+
+    "hasgit": 1,
     "git": "<a href=\"https://github.com/pabloeckardt\"> github.com/PabloEckardt </a>"
   },
   {
@@ -27,6 +19,7 @@
     "tools": "ROS, Kivy, Python, C++",
     "imgLink": "img/portfolio/roskiv.png",
     "modalID": "portfolioModal3",
+    "hasgit": 1,
     "git": "<a href=\"https://github.com/pabloeckardt\"> github.com/PabloEckardt </a>"
   },
   {
@@ -37,6 +30,7 @@
     "tools": "Flask, Python, Flask-Login, Flask-Alchemy",
     "imgLink": "img/portfolio/flask-login.png",
     "git": "<a href=\"https://github.com/pabloeckardt\"> github.com/PabloEckardt </a>",
+    "hasgit": 1,
     "modalID": "portfolioModal4"
   },
   {
@@ -47,50 +41,62 @@
     "tools": "Raspbian, Python, Flask (a raspberry pi)",
     "git": "<a href=\"https://github.com/pabloeckardt\"> github.com/PabloEckardt </a>",
     "imgLink": "img/portfolio/lightswitch.png",
+    "hasgit": 1,
     "modalID": "portfolioModal5"
   },
   {
     "projectTitle": "sudofindstuff.com",
-    "description": "Similar to foodcloseto.me, this aggregator website collects data from different sources. However I am working alone on this project and it should have better and more complex features such as fully dynamic data mining, additionally  I do intend to build a tool with more intrinsic value rather than just a practice project",
+    "description": "Similar to foodcloseto.me, this aggregator website collects data from different sources. However I am working alone on this project and it should have better and more complex features such as fully dynamic data mining, additionally  I do intend to build a tool with more intrinsic value rather than just a practice project. This project is setup to mine data indefinitely which means that it will eventually render interesting statistics on computer hardware",
     "type": "Personal Project",
     "date": "Summer 2017",
-    "service": "service1",
     "tools": "self-hosted, nginx, uWSGI, Flask, SQL-Alchemy, Jinja2, Bootsrap, HTML, JS, CSS, autopep8, coverage, pylint ",
     "imgLink": "img/portfolio/sudofindstuff.png",
-    "git": "<a href=\"https://github.com/pabloeckardt\"> github.com/PabloEckardt </a>",
+    "git": "https://github.com/pabloeckardt",
+    "hasgit": 0,
     "modalID": "portfolioModal6"
   },
   {
-    "projectTitle": "portfolioModal2",
-    "description": "______",
-    "client": "client1",
-    "date": "date1",
-    "service": "service1",
+    "projectTitle": "OpenCv Motion Detection",
+    "description": "Detect motion using any generic serial-usb webcam using color independent algorithms",
+    "type": "Personal Project",
+    "date": "2016",
     "tools": "tool1",
-    "imgLink": "img/portfolio/foodclosetome.png",
-    "git": "<a href=\"https://github.com/pabloeckardt\"> github.com/PabloEckardt </a>",
+    "imgLink": "img/portfolio/opencv.png",
+    "hasgit": 1,
+    "git": "https://github.com/PabloEckardt/OpenCVMotionDetection",
     "modalID": "portfolioModal7"
   },
   {
-    "projectTitle": "portfolioModal2",
-    "description": "______",
-    "client": "client1",
-    "date": "date1",
-    "service": "service1",
-    "tools": "tool1",
-    "imgLink": "img/portfolio/foodclosetome.png",
-    "git": "<a href=\"https://github.com/pabloeckardt\"> github.com/PabloEckardt </a>",
+    "projectTitle": "Web Hosting Services",
+    "description": "I had to host a python web application using Apache during my internship at ConocoPhillips. After that exposure I decided to host my own web services at my home. I host foodcloseto.me, pabloeckardt.com, sudofindstuff.com and hopefully the list will keep growing. I don't just host web applications but I like to have my own sftp server, jenkins server, and gitlab service. I plan on hosting my own email server when I get the time, as well as dashboard with IP cameras.",
+    "type": "Personal Project",
+    "date": "2017",
+    "tools": "Centos, Debian, Ubuntu, virtualbox / vmware, DDNS clients, Apache, Nginx, Passenger, uwsgi, Node.js",
+    "imgLink": "img/portfolio/selfhosted.png",
+    "hasgit": 0,
+    "git": "NA",
     "modalID": "portfolioModal8"
   },
   {
-    "projectTitle": "portfolioModal2",
-    "description": "______",
-    "client": "client1",
-    "date": "date1",
-    "service": "service1",
-    "tools": "tool1",
-    "imgLink": "img/portfolio/foodclosetome.png",
-    "git": "<a href=\"https://github.com/pabloeckardt\"> github.com/PabloEckardt </a>",
-    "modalID": "portfolioModal9"
+    "projectTitle": "How to correctly backup and encrypt directories",
+    "description": "This short project is a basic setup I came up with to make encrypted backups on a schedule, how to manage the encryption keys, and lastly, send email notifications reporting status codes. ",
+    "type": "Personal Project",
+    "date": "Summer 2017",
+    "tools": "Shell Scripting, Python",
+    "imgLink": "img/portfolio/encryptdirs.png",
+    "modalID": "portfolioModal1",
+    "hasgit": 1,
+    "git": "github.com/PabloEckardt/encrypt_dirs"
+  },
+  {
+    "projectTitle": "Conway's Game of Life",
+    "description": "There was no good reason to make this. I just did because it was the first graphical program I made in python years ago. So I remade it on C++, and I figured... why not on SDL?",
+    "type": "Personal Project",
+    "date": "2016",
+    "tools": "C++, SDL",
+    "imgLink": "img/portfolio/conway.png",
+    "hasgit": 1,
+    "git": "https://github.com/PabloEckardt/SDLConwaysGameOfLife",
+    "modalID": "portfolioModal8"
   }
 ]
