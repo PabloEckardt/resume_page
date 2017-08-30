@@ -28,8 +28,6 @@ html(lang='en')
                             a.nav-link.js-scroll-trigger(href='#portfolio') Portfolio
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#about') About
-                        li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#contact') Contact
         // Header
         header.masthead
             .container
@@ -67,40 +65,7 @@ html(lang='en')
                         a.btn.btn-lg.btn-outline(href='#')
                             i.fa.fa-download
                             |               Download Theme
-        // Contact Section
-        section#contact
-            .container
-                h2.text-center Contact Me
-                hr.star-primary
-                .row
-                    .col-lg-8.mx-auto
-                        // To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.
-                        // The form should work on most web servers, but if the form is not working you may need to configure your web server differently.
-                        form#contactForm(name='sentMessage', novalidate='')
-                            .control-group
-                                .form-group.floating-label-form-group.controls
-                                    label Name
-                                    input#name.form-control(type='text', placeholder='Name', required='', data-validation-required-message='Please enter your name.')
-                                    p.help-block.text-danger
-                            .control-group
-                                .form-group.floating-label-form-group.controls
-                                    label Email Address
-                                    input#email.form-control(type='email', placeholder='Email Address', required='', data-validation-required-message='Please enter your email address.')
-                                    p.help-block.text-danger
-                            .control-group
-                                .form-group.floating-label-form-group.controls
-                                    label Phone Number
-                                    input#phone.form-control(type='tel', placeholder='Phone Number', required='', data-validation-required-message='Please enter your phone number.')
-                                    p.help-block.text-danger
-                            .control-group
-                                .form-group.floating-label-form-group.controls
-                                    label Message
-                                    textarea#message.form-control(rows='5', placeholder='Message', required='', data-validation-required-message='Please enter a message.')
-                                    p.help-block.text-danger
-                            br
-                            #success
-                            .form-group
-                                button#sendMessageButton.btn.btn-success.btn-lg(type='submit') Send
+
         // Footer
         footer.text-center
             .footer-above
