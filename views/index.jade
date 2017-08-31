@@ -5,7 +5,7 @@ html(lang='en')
         meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
         meta(name='description', content='')
         meta(name='author', content='')
-        title Freelancer - Start Bootstrap Theme
+        title Pablo Eckardt :-)
         // Bootstrap core CSS
         link(href='vendor/bootstrap/css/bootstrap.min.css', rel='stylesheet')
         // Custom fonts for this template
@@ -31,11 +31,11 @@ html(lang='en')
         // Header
         header.masthead
             .container
-                img.img-fluid(src='img/profile_.JPG', alt='', style='width:300px;height:400px;')
+                img.img-fluid(src='img/battlestation.JPG', alt='')
                 .intro-text
                     span.name Hello, I'm Pablo
                     hr.star-light
-                    span.skills Software Engineer - User Experience Designer - Keyboard Connoisseur
+                    span.skills Software Engineer - Keyboard Connoisseur
         // Portfolio Grid Section
         section#portfolio
             .container
@@ -134,10 +134,11 @@ html(lang='en')
                                                 strong
                                                 | Date:&nbsp#{project["date"]}
 
-                                            li
-                                                | Source code: &nbsp
-                                                strong
-                                                    a(href='#{project["git"]}') Git Repo
+                                            if project["hasgit"] == 1
+                                                li
+                                                    | Source code: &nbsp
+                                                    strong
+                                                        a(href='#{project["git"]}') Git Repo
                                         button.btn.btn-success(type='button', data-dismiss='modal')
                                             i.fa.fa-times
                                             |                     Close

@@ -30,5 +30,5 @@ app.get('/', function(req, res){
     res.render('index.jade', { modalsData: modalsData });
 });
 
-app.listen(8081);
-console.log('Express app started on port %d', 8081);
+app.listen(3000);
+console.log('Express app started on port %d', 3000);

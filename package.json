@@ -1,8 +1,8 @@
 {
-  "title": "Freelancer",
-  "name": "startbootstrap-freelancer",
+  "title": "Pablo Eckardt",
+  "name": "Resume Page",
   "version": "4.0.0-beta",
-  "description": "A freelancer portfolio HTML theme for Bootstrap.",
+  "description": "A simple website with some information about me",
   "keywords": [
     "css",
     "sass",
@@ -11,19 +11,19 @@
     "theme",
     "template"
   ],
-  "homepage": "https://startbootstrap.com/template-overviews/freelancer",
+  "homepage": "http://pabloeckardt.com",
   "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer/issues",
+    "url": "",
     "email": "feedback@startbootstrap.com"
   },
   "license": "MIT",
-  "author": "Start Bootstrap",
+  "author": "",
   "contributors": [
-    "David Miller (http://davidmiller.io/)"
+    ""
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
+    "url": "https://github.com/PabloEckardt/resume_page"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
